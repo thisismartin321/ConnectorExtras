@@ -1,5 +1,9 @@
 repositories {
     maven {
+        name = "TempLocal262" // TEMP: vor PR entfernen
+        url = uri("https://raw.githubusercontent.com/thisismartin321/sinytra-26.2-maven/main/")
+    }
+    maven {
         name = "FabricMC"
         url = uri("https://maven.fabricmc.net")
     }

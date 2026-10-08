@@ -65,6 +65,10 @@ allprojects {
     }
 
     repositories {
+    maven {
+        name = "TempLocal262" // TEMP: vor PR entfernen
+        url = uri("https://raw.githubusercontent.com/thisismartin321/sinytra-26.2-maven/main/")
+    }
         maven {
             name = "NeoForge"
             url = uri("https://maven.neoforged.net/releases")

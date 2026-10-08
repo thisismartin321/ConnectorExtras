@@ -8,6 +8,10 @@ val versionForge: String by rootProject
 val relocateDirectory: Jar.(String, String) -> Unit by rootProject.extra
 
 repositories {
+    maven {
+        name = "TempLocal262" // TEMP: vor PR entfernen
+        url = uri("https://raw.githubusercontent.com/thisismartin321/sinytra-26.2-maven/main/")
+    }
     maven("https://maven.terraformersmc.com/releases")
 }
 
