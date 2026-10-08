@@ -7,7 +7,7 @@ import net.fabricmc.loader.api.FabricLoader;
 import net.minecraft.client.gui.screens.Screen;
 import net.neoforged.fml.ModList;
 import net.neoforged.neoforge.client.gui.IConfigScreenFactory;
-import net.neoforged.neoforge.client.gui.ModListScreen;
+import net.neoforged.neoforge.client.gui.modlist.ModListScreen;
 import org.slf4j.Logger;
 
 import java.util.ArrayList;
