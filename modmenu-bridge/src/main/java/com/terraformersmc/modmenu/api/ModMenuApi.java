@@ -40,7 +40,7 @@ public interface ModMenuApi {
      * @return A "Mods" Screen
      */
     static Screen createModsScreen(Screen previous) {
-        return new ModListScreen(previous);
+        return ModListScreen.create(previous);
     }
 
     /**
